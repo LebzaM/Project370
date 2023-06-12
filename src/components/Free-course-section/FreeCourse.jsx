@@ -1,42 +1,46 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
-import courseImg01 from "../../assests/images/web-development.png";
-import courseImg02 from "../../assests/images/kids-learning.png";
-import courseImg03 from "../../assests/images/seo.png";
+import Annique from "../../assests/images/AnniqueS.webp";
+import Beth from "../../assests/images/Beth.webp";
+import Martie from "../../assests/images/Martie.jpg";
 import courseImg04 from "../../assests/images/ui-ux.png";
 import FreeCourseCard from "./FreeCourseCard";
-
+import Marleneh from "../../assests/images/MarleneH.webp";
 import "./free-course.css";
 
 const freeCourseData = [
   {
     id: "01",
-    title: "Basic Web Development Course",
-    imgUrl: courseImg01,
+    title: "Prof Marlene Holmner",
+    imgUrl: Marleneh,
+    qualification:"BA, BA (Hons), MA, DPhil (Pretoria)",
     students: 5.3,
-    rating: 1.7,
+    
   },
   {
     id: "02",
-    title: "Coding for Junior Basic Course",
-    imgUrl: courseImg02,
+    title: "Ms Annique Smith",
+    imgUrl: Annique,
+    qualification:"BIS Multimedia, BIS (Hons) Multimedia, MIS Multimedia (Pretoria)",
     students: 5.3,
-    rating: 1.7,
+    
   },
 
   {
     id: "03",
-    title: "Search Engine Optimization - Basic",
-    imgUrl: courseImg03,
+    title: "Prof Beth le Roux",
+    imgUrl: Beth,
+    qualification:"BA (Hons), MIS Publishing, PhD Publishing (Pretoria), Postgraduate Diploma in Translation (UNISA)",
     students: 5.3,
-    rating: 1.7,
+  
   },
 
   {
     id: "04",
-    title: "Basic UI/UX Design - Figma",
-    imgUrl: courseImg04,
+    title: "Prof Martie Mearns",
+    imgUrl: Martie,
+    qualification:"D. Litt. et Phil. in Information Science (University of Johannesburg)",
     students: 5.3,
     rating: 1.7,
   },
@@ -44,11 +48,11 @@ const freeCourseData = [
 
 const FreeCourse = () => {
   return (
-    <section>
+    <section id="lectures">
       <Container>
         <Row>
           <Col lg="12" className="text-center mb-5">
-            <h2 className="fw-bold">Our Free Courses</h2>
+            <h2 className="fw-bold">BIS Lectures and Facilitators</h2>
           </Col>
 
           {freeCourseData.map((item) => (

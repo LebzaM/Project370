@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "reactstrap";
 
-import chooseImg from "../../assests/images/why-choose-us.png";
+import chooseImg from "../../assests/images/hatfieldcampus.webp";
 import "./choose-us.css";
 
 import ReactPlayer from "react-player";
@@ -9,21 +9,17 @@ import ReactPlayer from "react-player";
 const ChooseUs = () => {
   const [showVideo, setShowVideo] = useState(false);
   return (
-    <section>
+    <section id="campus">
       <Container>
         <Row>
           <Col lg="6" md="6">
             <div className="choose__content">
-              <h2>Why Choose Us</h2>
+              <h2>Virtual Campus Tour</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt mollitia nostrum harum eos praesentium odit a sed quod
-                aut fugit. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Reprehenderit omnis, culpa eligendi inventore perspiciatis
-                minus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolores cupiditate facilis provident quidem accusamus impedit
-                tenetur laboriosam debitis nisi eius!
+              Enjoy a personalised scroll through the campus with your very own tourist guide, all from the comfort of your home. Experience UP student life, faculty achievements and UP's academic excellence.
               </p>
+
+            
             </div>
           </Col>
 
@@ -31,7 +27,7 @@ const ChooseUs = () => {
             <div className="choose__img">
               {showVideo ? (
                 <ReactPlayer
-                  url="https://www.youtube.com/watch?v=qFp27TR4Yew"
+                  url="https://youtu.be/zICWqLlrWuc"
                   controls
                   width="100%"
                   height="350px"

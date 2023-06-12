@@ -4,20 +4,22 @@ import "./features.css";
 
 const FeatureData = [
   {
-    title: "Quick Learning",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestias, aperiam doloribus aut sapiente praesentium eos iste dicta amet itaque!",
-    icon: "ri-draft-line",
+    title: "Quick History",
+    desc: "Mr PC Coetzee started training staff members of the Merensky Library in 1938, and ten years later the Department of Library Science was established in 1948 at the University of Pretoria.",
+    icon: "ri-history-line",
   },
 
   {
-    title: "All Time Support",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestias, aperiam doloribus aut sapiente praesentium eos iste dicta amet itaque!",
-    icon: "ri-discuss-line",
+    title: "Course Duration",
+    desc: "3 Years",
+    icon: "ri-time-line",
   },
 
   {
     title: "Certification",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestias, aperiam doloribus aut sapiente praesentium eos iste dicta amet itaque!",
+    desc: "BIS Information Science",
+    desc2: "BIS Multimedia",
+    desc3: "BIS Publishing Studies",
     icon: "ri-contacts-book-line",
   },
 ];
@@ -35,6 +37,8 @@ const Features = () => {
                 </h2>
                 <h6>{item.title}</h6>
                 <p>{item.desc}</p>
+                <p>{item.desc2}</p>
+                <p>{item.desc3}</p>
               </div>
             </Col>
           ))}

@@ -9,8 +9,9 @@ import CourseCard from "./CourseCard";
 const coursesData = [
   {
     id: "01",
-    title: "Web Design BootCamp-2022 for Beginners",
-    lesson: 12,
+    title: "BIS Information Science",
+    description: "This package focuses on the use of information technology and the processing of information products and is designed to train students in the management, retrieval and organisation of information, as well as to teach them how to add value to, package and distribute information.",
+    lesson: "APS 28",
     students: 12.5,
     rating: 5.9,
     imgUrl: courseImg1,
@@ -18,8 +19,9 @@ const coursesData = [
 
   {
     id: "02",
-    title: "Professional Graphics Design, PhotoShop, Adobe XD, Figma",
-    lesson: 12,
+    title: "BIS Mutltimedia",
+    description:"Multimedia documents include text, graphics, sound, video and animation. The purpose of this qualification is to enable students to understand the necessary concepts to build multimedia products and maintain the products.",
+    lesson: "APS 30",
     students: 12.5,
     rating: 5.9,
     imgUrl: courseImg2,
@@ -27,8 +29,9 @@ const coursesData = [
 
   {
     id: "03",
-    title: "UI/UX BootCamp for Beginners in 2022",
-    lesson: 12,
+    title: "BIS Publishing",
+    description:" Students are equipped with background knowledge on the local and international publishing industry, role players and trends, and both print and digital formats, as well as relevant workplace skills.",
+    lesson: "APS 28",
     students: 12.5,
     rating: 5.9,
     imgUrl: courseImg3,
@@ -37,17 +40,15 @@ const coursesData = [
 
 const Courses = () => {
   return (
-    <section>
+    <section id="courses">
       <Container>
         <Row>
           <Col lg="12" className="mb-5">
             <div className="course__top d-flex justify-content-between align-items-center">
               <div className="course__top__left w-50">
-                <h2>Our Popular Courses</h2>
+                <h2>BIS Courses</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                  consequatur libero quod voluptatibus ullam quia quas, vitae
-                  voluptatem recusandae reprehenderit!
+                  BIS offers a range of courses to choose from
                 </p>
               </div>
 

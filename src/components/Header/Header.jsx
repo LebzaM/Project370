@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
 import { Container } from "reactstrap";
 import "./header.css";
-
+import AboutUs from '../About-us/AboutUs'
+import { Link, animateScroll as scroll} from 'react-scroll';
 const navLinks = [
   {
     display: "Home",
@@ -17,11 +18,11 @@ const navLinks = [
     url: "#",
   },
   {
-    display: "Pages",
+    display: "Campus",
     url: "#",
   },
   {
-    display: "Blog",
+    display: "Lecturers",
     url: "#",
   },
 ];
@@ -36,27 +37,29 @@ const Header = () => {
       <Container>
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
-            <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
-            </h2>
+            <h5 className=" d-flex align-items-center gap-1">
+              <i class="ri-pantone-line"></i> Prospective BIS Students
+            </h5>
           </div>
 
           <div className="nav d-flex align-items-center gap-5">
             <div className="nav__menu" ref={menuRef} onClick={menuToggle}>
               <ul className="nav__list">
-                {navLinks.map((item, index) => (
+                {/* {navLinks.map((item, index) => (
                   <li key={index} className="nav__item">
                     <a href={item.url}>{item.display}</a>
                   </li>
-                ))}
+                ))} */}
+                
+                <Link to='home' activeClass="active" smooth={true} spy={true}><li className="nav__item"><a>Home</a></li></Link>
+                <Link to='about' activeClass="active" smooth={true} spy={true} offset={-200}><li className="nav__item"><a>About</a></li></Link>
+                <Link to='courses' activeClass="active" smooth={true} spy={true} offset={-20}><li className="nav__item"><a>Courses</a></li></Link>
+                <Link to='campus' activeClass="active" smooth={true} spy={true} offset={-20}><li className="nav__item"><a>Campus</a></li></Link>
+                <Link to='lectures' activeClass="active" smooth={true} spy={true} offset={-20}><li className="nav__item"><a>Lectures</a></li></Link>
               </ul>
             </div>
 
-            <div className="nav__right">
-              <p className="mb-0 d-flex align-items-center gap-2">
-                <i class="ri-phone-line"></i> +88 0123456789
-              </p>
-            </div>
+            
           </div>
 
           <div className="mobile__menu">
