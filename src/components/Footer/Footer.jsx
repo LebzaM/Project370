@@ -115,7 +115,7 @@ const Footer = () => {
             <h6 className="fw-bold">Get in Touch</h6>
 
             <p>Address: Lynnwood Rd, Hatfield, Pretoria, 0002</p>
-            <p> Phone: 012 420 4111</p>
+            <p>Phone: 012 420 4111</p>
             
           </Col>
         </Row>
