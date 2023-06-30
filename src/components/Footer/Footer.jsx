@@ -9,7 +9,7 @@ const footerQuickLinks = [
     url: "#",
   },
   {
-    display: "About US",
+    display: "About",
     url: "#",
   },
 
@@ -19,7 +19,7 @@ const footerQuickLinks = [
   },
 
   {
-    display: "Blog",
+    display: "Campus",
     url: "#",
   },
 ];
@@ -51,12 +51,12 @@ const Footer = () => {
       <Container>
         <Row>
           <Col lg="3" md="6" className="mb-4">
-            <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
-            </h2>
+            <h5 className=" d-flex align-items-center gap-1">
+            <svg className="graduation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11.3333L0 9L12 2L24 9V17.5H22V10.1667L20 11.3333V18.0113L19.7774 18.2864C17.9457 20.5499 15.1418 22 12 22C8.85817 22 6.05429 20.5499 4.22263 18.2864L4 18.0113V11.3333ZM6 12.5V17.2917C7.46721 18.954 9.61112 20 12 20C14.3889 20 16.5328 18.954 18 17.2917V12.5L12 16L6 12.5ZM3.96927 9L12 13.6846L20.0307 9L12 4.31541L3.96927 9Z" fill="rgba(23,191,158,1)"></path></svg>Prospective BIS Students.
+            </h5>
 
             <div className="follows">
-              <p className="mb-0">Follow us on social media</p>
+              <p className="mb-0">Follow UP on social media</p>
               <span>
                 {" "}
                 <a href="facebook.com">
@@ -99,7 +99,7 @@ const Footer = () => {
             </ListGroup>
           </Col>
 
-          <Col lg="3" md="6" className="mb-4">
+          {/* <Col lg="3" md="6" className="mb-4">
             <h6 className="fw-bold">Information</h6>
             <ListGroup className="link__list">
               {footerInfoLinks.map((item, index) => (
@@ -109,7 +109,7 @@ const Footer = () => {
                 </ListGroupItem>
               ))}
             </ListGroup>
-          </Col>
+          </Col> */}
 
           <Col lg="3" md="6">
             <h6 className="fw-bold">Get in Touch</h6>

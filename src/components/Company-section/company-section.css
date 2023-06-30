@@ -1,0 +1,11 @@
+.section{
+   
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    font-weight: 700;
+    font-weight: bolder;
+    @media screen and (max-width:650px) {
+        display:none
+    }
+}

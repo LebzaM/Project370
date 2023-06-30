@@ -19,3 +19,13 @@
   color: #0a2b1e;
   font-weight: 500;
 }
+
+
+.graduation{
+  width: 35px;
+  height: 35px;
+  justify-content: space-around;
+  padding-right: 5px;
+  
+  
+}

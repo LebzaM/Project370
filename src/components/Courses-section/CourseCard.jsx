@@ -2,6 +2,7 @@ import React from "react";
 
 const CourseCard = (props) => {
   const { imgUrl, title, lesson, students, rating, description } = props.item;
+  console.log(props.item)
 
   return (
     <div className="single__course__item">

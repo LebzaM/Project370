@@ -6,18 +6,11 @@
 .hero__content {
   padding-top: 80px;
 }
-.search input {
-  border: none;
-  outline: none;
-  padding: 7px 10%;
-}
 
-.search {
-  width: 60%;
-  border: 1px solid #17bf9d44;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 50px;
-  margin-top: 20px;
+.hero{
+  width: 100%;
+  padding-top: 80px;
+  mix-blend-mode: darken;
+  border-radius: 20px;
+  
 }
