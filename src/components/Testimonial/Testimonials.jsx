@@ -51,7 +51,7 @@ const Testimonials = () => {
                       </p>
 
                       <div className="student__info mt-4">
-                        <h6 className="fw-bold">Jhon Doe</h6>
+                        <h6 className="fw-bold">Sihle Dladla</h6>
                         <p>-Final Year Information Science</p>
                       </div>
                     </div>
@@ -65,7 +65,7 @@ const Testimonials = () => {
                       </p>
 
                       <div className="student__info mt-4">
-                        <h6 className="fw-bold">Lesego </h6>
+                        <h6 className="fw-bold">Lesego Chologi</h6>
                         <p>-Final Year Information Science Student</p>
                       </div>
                     </div>
@@ -79,7 +79,7 @@ const Testimonials = () => {
                       </p>
 
                       <div className="student__info mt-4">
-                        <h6 className="fw-bold">Prince </h6>
+                        <h6 className="fw-bold">Prince Garane </h6>
                         <p>-Final Year Information Science Student</p>
                       </div>
                     </div>
