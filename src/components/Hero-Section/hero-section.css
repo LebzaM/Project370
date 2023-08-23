@@ -12,5 +12,6 @@
   padding-top: 80px;
   mix-blend-mode: darken;
   border-radius: 20px;
+  z-index: -999;
   
 }

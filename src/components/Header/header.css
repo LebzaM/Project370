@@ -4,6 +4,7 @@
   line-height: 80px;
   position: fixed;
   background-color: #0de48e;
+  z-index: 999;
 }
 
 .nav__list {

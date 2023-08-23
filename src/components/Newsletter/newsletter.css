@@ -8,18 +8,10 @@
 .newsletter h2 {
   color: #fff;
 }
-.subscribe input {
-  border: none;
-  outline: none;
-}
 
-.subscribe {
-  padding: 7px 10px;
-  background: #fff;
-  width: 45%;
-  margin: auto;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.footerpic{
+  width:150px;
+  height:150px;
+  transform: rotate(90deg);
+  margin-top: 10px;
 }

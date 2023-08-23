@@ -99,17 +99,7 @@ const Footer = () => {
             </ListGroup>
           </Col>
 
-          {/* <Col lg="3" md="6" className="mb-4">
-            <h6 className="fw-bold">Information</h6>
-            <ListGroup className="link__list">
-              {footerInfoLinks.map((item, index) => (
-                <ListGroupItem key={index} className="border-0 ps-0 link__item">
-                  {" "}
-                  <a href={item.url}>{item.display}</a>
-                </ListGroupItem>
-              ))}
-            </ListGroup>
-          </Col> */}
+          
 
           <Col lg="3" md="6">
             <h6 className="fw-bold">Get in Touch</h6>

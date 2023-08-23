@@ -1,7 +1,7 @@
 import React from "react";
 import "./newsletter.css";
 import { Container, Row, Col } from "reactstrap";
-
+import footerImg from "../../assests/images/pngwing.com (7).png";
 const Newsletter = () => {
   return (
     <section>
@@ -9,10 +9,7 @@ const Newsletter = () => {
         <Row>
           <Col lg="12" className="text-center">
             <h2 className="mb-4">Hop on and join us on our BIS Journey</h2>
-            {/* <div className="subscribe">
-              <input type="text" placeholder="Email" />
-              <button className="btn">Subscribe</button>
-            </div> */}
+            <img className="footerpic" src={footerImg}/>
           </Col>
         </Row>
       </Container>
