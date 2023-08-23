@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
 import { Container } from "reactstrap";
 import "./header.css";
-import AboutUs from '../About-us/AboutUs'
+import AboutUs from '../About-us/AboutUs';
+
 import { Link, animateScroll as scroll} from 'react-scroll';
 const navLinks = [
   {
@@ -45,11 +46,7 @@ const Header = () => {
           <div className="nav d-flex align-items-center gap-5">
             <div className="nav__menu" ref={menuRef} onClick={menuToggle}>
               <ul className="nav__list">
-                {/* {navLinks.map((item, index) => (
-                  <li key={index} className="nav__item">
-                    <a href={item.url}>{item.display}</a>
-                  </li>
-                ))} */}
+                
                 
                 <Link to='home' activeClass="active" smooth={true} spy={true}><li className="nav__item"><a>Home</a></li></Link>
                 <Link to='about' activeClass="active" smooth={true} spy={true} offset={-200}><li className="nav__item"><a>About</a></li></Link>
