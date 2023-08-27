@@ -5,7 +5,41 @@
     justify-self: center;
     font-weight: 700;
     font-weight: bolder;
-    @media screen and (max-width:650px) {
+   
+    
+    
+    /* @media screen and (max-width:650px) {
         display:none
-    }
+    } */
+}
+
+.faculty{
+   
+    align-items: center;
+    font-weight: 700;
+    justify-content: center;
+    justify-self: center;
+    
+}
+
+.ebit{
+    background-color: #0de48e;
+    border-radius: 80px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    display: flex;
+    font-size: 10vh;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+.mobilecursor{
+    @media screen and (max-width:650px) {
+        
+            display: none;
+        
+    } 
 }

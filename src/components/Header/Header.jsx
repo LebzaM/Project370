@@ -39,7 +39,7 @@ const Header = () => {
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
             <h5 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Prospective BIS Students
+             <img className="logopic" src="https://libapps.s3.amazonaws.com/accounts/246973/images/vertical-logo.png"/>Prospective BIS Students
             </h5>
           </div>
 

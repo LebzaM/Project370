@@ -6,7 +6,14 @@
   background-color: #0de48e;
   z-index: 999;
 }
+.logo{
+  display: flex;
+}
 
+.logopic{
+  display: flex;
+  width: 15%;
+}
 .nav__list {
   margin: 0;
   padding: 0;

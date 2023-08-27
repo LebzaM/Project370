@@ -7,7 +7,7 @@ const FreeCourseCard = (props) => {
     <div className="single__free__course">
       <div className="free__course__img mb-5">
         <img src={imgUrl} alt="" className="w-100" />
-        <button className="btn free__btn">See More</button>
+        <button className="btn free__btn" href="">See More</button>
       </div>
 
       <div className="free__course__details">

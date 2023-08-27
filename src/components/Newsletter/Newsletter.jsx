@@ -2,6 +2,9 @@ import React from "react";
 import "./newsletter.css";
 import { Container, Row, Col } from "reactstrap";
 import footerImg from "../../assests/images/pngwing.com (7).png";
+import { gsap } from "gsap";
+import { Power2 } from 'gsap';
+
 const Newsletter = () => {
   return (
     <section>
@@ -10,7 +13,7 @@ const Newsletter = () => {
           <Col lg="12" className="text-center">
             <h2 className="mb-4">Hop on and join us on our BIS Journey</h2>
             <img className="footerpic" src={footerImg}/>
-          </Col>
+           </Col>
         </Row>
       </Container>
     </section>

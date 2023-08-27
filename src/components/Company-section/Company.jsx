@@ -1,35 +1,49 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import '../Company-section/company-section.css'
+import '../Company-section/company-section.css';
+import AnimatedCursor from "react-animated-cursor"
 const Company = () => {
   return (
-    <section >
-      <Container>
+    <section>
+      <Container className="faculty">
         <Row className="section">
-          <Col lg="2" md="3" sm="4" xs="6">
-            <h3 className=" d-flex align-items-center gap-1">
-               E
+        <h3 className="ebit">
+               -EBIT-
             </h3>
-          </Col>
-
-          <Col lg="2" md="3" sm="4" xs="6">
-            <h3 className=" d-flex align-items-center gap-1">
-               B
-            </h3>
-          </Col>
-
-          <Col lg="2" md="3" sm="4" xs="6">
-            <h3 className=" d-flex align-items-center gap-1">
-               I
-            </h3>
-          </Col>
-
-          <Col lg="2" md="3" sm="4" xs="6">
-            <h3 className=" d-flex align-items-center gap-1">
-              {" "}
-              T
-            </h3>
-          </Col>
+            <div className="App">
+    <AnimatedCursor className="mobilecursor"
+      innerSize={8}
+      outerSize={8}
+      color='10, 25, 242'
+      outerAlpha={0.2}
+      innerScale={0.7}
+      outerScale={5}
+      clickables={[
+        'a',
+        'input[type="text"]',
+        'input[type="email"]',
+        'input[type="number"]',
+        'input[type="submit"]',
+        'input[type="image"]',
+        'label[for]',
+        'select',
+        'textarea',
+        'button',
+        '.link',
+        {
+          target: '.custom',
+          options: {
+            innerSize: 5,
+            outerSize: 1,
+            color: '10, 25, 242',
+            outerAlpha: 0.9,
+            innerScale: 0.7,
+            outerScale: 5
+          }
+        }
+      ]}
+    />
+    </div>
 
           
         </Row>
