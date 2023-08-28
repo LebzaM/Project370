@@ -2,8 +2,7 @@ import React from "react";
 import "./newsletter.css";
 import { Container, Row, Col } from "reactstrap";
 import footerImg from "../../assests/images/pngwing.com (7).png";
-import { gsap } from "gsap";
-import { Power2 } from 'gsap';
+
 
 const Newsletter = () => {
   return (

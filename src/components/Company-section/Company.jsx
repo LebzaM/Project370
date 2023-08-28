@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import '../Company-section/company-section.css';
-import AnimatedCursor from "react-animated-cursor"
+// import AnimatedCursor from "react-animated-cursor"
 const Company = () => {
   return (
     <section>
@@ -11,7 +11,8 @@ const Company = () => {
                -EBIT-
             </h3>
             <div className="App">
-    <AnimatedCursor className="mobilecursor"
+    {/* Animated cursor does not work on deployment */}
+    {/* <AnimatedCursor className="mobilecursor"
       innerSize={8}
       outerSize={8}
       color='10, 25, 242'
@@ -42,7 +43,7 @@ const Company = () => {
           }
         }
       ]}
-    />
+    /> */}
     </div>
 
           
