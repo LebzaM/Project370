@@ -12,7 +12,7 @@ const coursesData = [
     title: "BIS Information Science",
     description: "This package focuses on the use of information technology and the processing of information products and is designed to train students in the management, retrieval and organisation of information, as well as to teach them how to add value to, package and distribute information.",
     lesson: "APS 28",
-    students: 12.5,
+    students: 1.5,
     rating: 5.9,
     imgUrl: courseImg1,
   },
@@ -22,7 +22,7 @@ const coursesData = [
     title: "BIS Mutltimedia",
     description:"Multimedia documents include text, graphics, sound, video and animation. The purpose of this qualification is to enable students to understand the necessary concepts to build multimedia products and maintain the products.",
     lesson: "APS 30",
-    students: 12.5,
+    students: 2.5,
     rating: 5.9,
     imgUrl: courseImg2,
   },
@@ -32,7 +32,7 @@ const coursesData = [
     title: "BIS Publishing",
     description:" Students are equipped with background knowledge on the local and international publishing industry, role players and trends, and both print and digital formats, as well as relevant workplace skills.",
     lesson: "APS 28",
-    students: 12.5,
+    students: 1,
     rating: 5.9,
     imgUrl: courseImg3,
   },
@@ -53,7 +53,7 @@ const Courses = () => {
               </div>
 
               <div className="w-50 text-end">
-                <button className="btn">See All</button>
+                <button className="btn" onClick={()=> window.open('https://www.up.ac.za/information-science', '_blank')}>See All</button>
               </div>
             </div>
           </Col>

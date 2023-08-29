@@ -16,6 +16,7 @@ const freeCourseData = [
     imgUrl: Marleneh,
     qualification:"BA, BA (Hons), MA, DPhil (Pretoria)",
     students: 5.3,
+    url:'https://www.up.ac.za/information-science/article/1913430/prof-marlene-holmner'
     
   },
   {
@@ -24,6 +25,7 @@ const freeCourseData = [
     imgUrl: Annique,
     qualification:"BIS Multimedia, BIS (Hons) Multimedia, MIS Multimedia (Pretoria)",
     students: 5.3,
+    url:'https://www.up.ac.za/information-science/article/2650054/ms-annique-smith',
     
   },
 
@@ -33,6 +35,7 @@ const freeCourseData = [
     imgUrl: Beth,
     qualification:"BA (Hons), MIS Publishing, PhD Publishing (Pretoria), Postgraduate Diploma in Translation (UNISA)",
     students: 5.3,
+    url:'https://www.up.ac.za/information-science/article/2993398/prof-beth-le-roux',
   
   },
 
@@ -43,6 +46,7 @@ const freeCourseData = [
     qualification:"D. Litt. et Phil. in Information Science (University of Johannesburg)",
     students: 5.3,
     rating: 1.7,
+    url:'https://www.up.ac.za/information-science/article/3145913/prof-martie-mearns',
   },
 ];
 
@@ -54,6 +58,7 @@ const FreeCourse = () => {
           <Col lg="12" className="text-center mb-5">
             <h2 className="fw-bold">BIS Lectures and Facilitators</h2>
           </Col>
+
 
           {freeCourseData.map((item) => (
             <Col lg="3" md="4" className="mb-4" key={item.id}>

@@ -26,11 +26,11 @@ const CourseCard = (props) => {
 
         <div className=" d-flex justify-content-between align-items-center">
           <p className="rating d-flex align-items-center gap-1">
-            <i class="ri-star-fill"></i> {rating}K
+            
           </p>
 
           <p className="enroll d-flex align-items-center gap-1">
-            <a href="#"> Enroll Now</a>
+            <a onClick={()=> window.open('https://www.up.ac.za/online-registration', '_blank')} style={{color:'#17bf9e', cursor:'pointer'}}> Enroll Now</a>
           </p>
         </div>
       </div>

@@ -1,13 +1,13 @@
 import React from "react";
 
 const FreeCourseCard = (props) => {
-  const { imgUrl, title, students, qualification  } = props.item;
-
+  const { imgUrl, title, students, qualification, url  } = props.item;
+  console.log(props)
   return (
     <div className="single__free__course">
       <div className="free__course__img mb-5">
         <img src={imgUrl} alt="" className="w-100" />
-        <button className="btn free__btn" href="">See More</button>
+        <button className="btn free__btn" onClick={() => window.open(url, '_blank')}>See More</button>
       </div>
 
       <div className="free__course__details">

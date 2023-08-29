@@ -49,7 +49,7 @@ const HeroSection = () => {
          actionProvider={ActionProvider}/>
        </div>
      </div>
-        <button onClick={closeModal} style={{display:'flex', alignItems:'center', justifyContent:'center', backgroundColor:'red', padding:'2px', color:'white', fontWeight:'bolder', borderRadius:'80px', marginLeft:'20%'}}>Close </button>
+        <button onClick={closeModal} style={{display:'flex', alignItems:'center', justifyContent:'center', backgroundColor:'red', padding:'2px', color:'white', fontWeight:'bolder', borderRadius:'80px'}}>Close </button>
       </ModalComponent>
               
             </div>
