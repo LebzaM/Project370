@@ -11,7 +11,7 @@ const Newsletter = () => {
         <Row>
           <Col lg="12" className="text-center">
             <h2 className="mb-4">Hop on and join us on our BIS Journey</h2>
-            <img className="footerpic" src={footerImg}/>
+            <img className="footerpic" src={footerImg} alt="footer"/>
            </Col>
         </Row>
       </Container>

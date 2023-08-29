@@ -1,0 +1,8 @@
+.appchat{
+    text-align: center;
+    background-color: #0de48e;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

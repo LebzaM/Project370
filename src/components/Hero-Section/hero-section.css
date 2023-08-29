@@ -166,4 +166,32 @@
         transform: translateX(-10px);
       }
     }
-  
+
+    .libby{
+      
+      display: flex;
+      font-weight: bolder;
+      @media screen and (max-width:650px) {
+        align-items: center;
+      justify-content: center;
+      display: flex;
+      }
+    }
+    .bot{
+      width: 25%;
+      height: 25%;
+      cursor: pointer;
+      
+      @media screen and (max-width:650px) {
+        
+        
+        margin-bottom: 10%;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        display: flex;
+        margin-left: 35%;
+        
+    } 
+      
+    }

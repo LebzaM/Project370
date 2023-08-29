@@ -16,7 +16,7 @@ const FeatureData = [
   },
 
   {
-    title: "Certification",
+    title: "Qualification",
     desc: "BIS Information Science",
     desc2: "BIS Multimedia",
     desc3: "BIS Publishing Studies",
