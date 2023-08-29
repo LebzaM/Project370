@@ -20,6 +20,25 @@ const MessageParser = ({ children, actions }) => {
     if(message.includes('information')){
       actions.handleInformation();
     }
+    //More
+    if (message.includes('Hello')) {
+      actions.handleHello();
+    }
+    if (message.includes('Hey')) {
+      actions.handleHello();
+    }
+    if (message.includes('Campus')) {
+      actions.handleDog();
+    }
+    if(message.includes('Study')){
+      actions.handleStudy()
+    }
+    if(message.includes('Course')){
+      actions.handleCourse();
+    }
+    if(message.includes('Information')){
+      actions.handleInformation();
+    }
   };
 
   return (
