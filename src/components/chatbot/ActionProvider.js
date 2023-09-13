@@ -35,11 +35,32 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
       messages: [...prev.messages, botMessage],
     }));
   };
+
+  const handleSecret = () => {
+    const botMessage = createChatBotMessage('I see you found the secret feature. What is the first building at the University of Pretoria?');
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleAnswers = () => {
+    const botMessage = createChatBotMessage('Congratulations! The Old Arts Building, on the main campus of the University of Pretoria, was one of the first structures built there. The building is located on the eastern side of an open courtyard facing the University of Pretoria Faculty of Engineering.',
+    {
+      widget: 'congrats',
+    });
+    
+
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
   
   
     const handleDog = () => {
       const botMessage = createChatBotMessage(
-        "Here's a picture of the UP Hatfield Campus so you don't get lost. You can also view the virtual tour below.",
+        "The university of pretoria is located on Lynnwood Rd, Hatfield, Pretoria, 0002. Here's a picture of the UP Hatfield Campus so you don't get lost. You can also view the virtual tour below.",
         {
           widget: 'dogPicture',
         }
@@ -63,6 +84,8 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
             handleStudy,
             handleCourse,
             handleInformation,
+            handleSecret,
+            handleAnswers,
           },
         });
       })}

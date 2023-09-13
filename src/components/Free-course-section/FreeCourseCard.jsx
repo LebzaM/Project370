@@ -2,7 +2,7 @@ import React from "react";
 
 const FreeCourseCard = (props) => {
   const { imgUrl, title, students, qualification, url  } = props.item;
-  console.log(props)
+  // console.log(props)
   return (
     <div className="single__free__course">
       <div className="free__course__img mb-5">

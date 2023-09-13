@@ -39,6 +39,18 @@ const MessageParser = ({ children, actions }) => {
     if(message.includes('Information')){
       actions.handleInformation();
     }
+    if(message.includes('Secret')){
+      actions.handleSecret();
+    }
+    if(message.includes('secret')){
+      actions.handleSecret();
+    }
+    if(message.includes('Old Arts Building')){
+      actions.handleAnswers();
+    }
+    if(message.includes('old arts building')){
+      actions.handleAnswers();
+    }
   };
 
   return (
