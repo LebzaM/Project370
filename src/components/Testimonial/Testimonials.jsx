@@ -75,7 +75,7 @@ const Testimonials = () => {
                     <div className="single__testimonial">
                       
                       <p>
-                        The culture at the University as a whole is unique but the culture in the the BIS department is uch more unique. Come join Us!
+                        The culture at the University as a whole is unique but the culture in the the BIS department is much more unique. Come join Us!
                       </p>
 
                       <div className="student__info mt-4">

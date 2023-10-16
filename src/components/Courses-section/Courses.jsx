@@ -15,6 +15,7 @@ const coursesData = [
     students: 1.5,
     rating: 5.9,
     imgUrl: courseImg1,
+    url:'https://drive.google.com/file/d/1D3_V4M8mEFe1Qu6-4U2fJbYqxtDrFM_f/view?usp=sharing',
   },
 
   {
@@ -25,6 +26,7 @@ const coursesData = [
     students: 2.5,
     rating: 5.9,
     imgUrl: courseImg2,
+    url:'https://drive.google.com/file/d/1tW7TQkfAKT_QeCqnEG6zLMFH1DJR-WwH/view?usp=sharing',
   },
 
   {
@@ -35,6 +37,7 @@ const coursesData = [
     students: 1,
     rating: 5.9,
     imgUrl: courseImg3,
+    url:'https://drive.google.com/file/d/11MJodInYzXlWxrt1fXQM-uXnvcdwsmyh/view?usp=sharing',
   },
 ];
 
@@ -48,7 +51,9 @@ const Courses = () => {
               <div className="course__top__left w-50">
                 <h2>BIS Courses</h2>
                 <p>
-                  BIS offers a range of courses to choose from
+                  BIS offers a range of courses to choose from <br/>
+                  *click on the picture for more 
+
                 </p>
               </div>
 

@@ -1,13 +1,13 @@
 import React from "react";
 
 const CourseCard = (props) => {
-  const { imgUrl, title, lesson, students, rating, description } = props.item;
+  const { imgUrl, title, lesson, students, rating, description, url } = props.item;
   // console.log(props.item)
 
   return (
     <div className="single__course__item">
       <div className="course__img">
-        <img src={imgUrl} alt="" className="w-100" />
+        <img src={imgUrl} alt="" className="w-100" onClick={() => window.open(url, '_blank')} style={{cursor:'pointer'}}/>
       </div>
 
       <div className="course__details">

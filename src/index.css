@@ -42,6 +42,9 @@ button.btn {
   color: #fff;
   padding: 7px 25px;
   border-radius: 50px;
+  --bs-btn-hover-border-color:  #17bf9e;
+ 
+  
 }
 
 i {

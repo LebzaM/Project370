@@ -24,6 +24,12 @@ const MessageParser = ({ children, actions }) => {
     if (message.includes('Hello')) {
       actions.handleHello();
     }
+    if (message.includes('Hi')) {
+      actions.handleHello();
+    }
+    if (message.includes('hi')) {
+      actions.handleHello();
+    }
     if (message.includes('Hey')) {
       actions.handleHello();
     }

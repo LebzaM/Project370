@@ -3,7 +3,7 @@ import React from 'react';
 const ActionProvider = ({ createChatBotMessage, setState, children }) => {
   const handleHello = () => {
     const botMessage = createChatBotMessage('Hello. Nice to meet you. What can I help you with today?');
-
+    
     setState((prev) => ({
       ...prev,
       messages: [...prev.messages, botMessage],
@@ -45,7 +45,9 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     }));
   };
   const handleAnswers = () => {
-    const botMessage = createChatBotMessage('Congratulations! The Old Arts Building, on the main campus of the University of Pretoria, was one of the first structures built there. The building is located on the eastern side of an open courtyard facing the University of Pretoria Faculty of Engineering.',
+    
+
+    const botMessage = createChatBotMessage('Congratulations! The Old Arts Building, on the main campus of the University of Pretoria, was one of the first structures built there. The building is located on the eastern side of an open courtyard facing the University of Pretoria Faculty of Engineering. Collect your price from the InfoScitrek team.',
     {
       widget: 'congrats',
     });
